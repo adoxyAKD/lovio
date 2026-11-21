@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259834200432",
+    "project_id": "lovio-e5990",
+    "storage_bucket": "lovio-e5990.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259834200432:android:dd054e3b9989650a5b4fb5",
+        "android_client_info": {
+          "package_name": "com.example.lovio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQNKF5GWUgmjmD2IT7fIGXQlBTG7YRu1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

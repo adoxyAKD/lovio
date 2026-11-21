@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.lovio",
+    "sha256_cert_fingerprints": [
+      "A5:C3:7E:53:A6:7B:DC:BE:50:90:46:47:10:E3:E9:4F:1E:7F:C7:F9:12:53:65:9D:9B:1B:C1:9A:6D:89:AE:25"
+    ]
+  }
+}]
+

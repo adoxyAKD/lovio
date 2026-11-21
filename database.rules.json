@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "shared_pages": {
+      ".read": true,
+      ".write": true
+    },
+    "test_ping": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}
+

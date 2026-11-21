@@ -1,0 +1,50 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lovio-e5990",
+          "appId": "1:259834200432:android:dd054e3b9989650a5b4fb5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lovio-e5990",
+          "configurations": {
+            "android": "1:259834200432:android:dd054e3b9989650a5b4fb5",
+            "ios": "1:259834200432:ios:1b822f72b6ea73f65b4fb5"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "web_public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "/.well-known/assetlinks.json",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
